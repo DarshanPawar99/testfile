@@ -53,7 +53,7 @@ def find_mismatches(df):
 
 
             calculated_commission = (safe_get_value(row, 'selling amount') - safe_get_value(row, 'buying amt ai') 
-                                     + safe_get_value(row, 'penalty on vendor') - safe_get_value(row, 'penalty on smartq'))
+                                     + safe_get_value(row, 'penalty on vendor') - safe_get_value(row, 'penalty on smartq') + safe_get_value(row, 'direct payment from employee'))
             check_mismatch(row, index, 'commission', calculated_commission, mismatched_data)
         except Exception as e:
             logging.error(f"Error processing row {index + 3}: {e}")
