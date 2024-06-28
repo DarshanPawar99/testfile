@@ -134,6 +134,7 @@ def main():
             "business_logic_47": ["Airtel NOC"],
             "business_logic_48": ["Airtel-Jaya"],
             "business_logic_49": ["MIQ"],
+            "business_logic_50": ["MIQ MRP"],
 
 
             "event_logic_1": ["Telstra Event.","Telstra Event","Events"],
