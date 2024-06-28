@@ -139,7 +139,7 @@ def main():
             "event_logic_1": ["Telstra Event.","Telstra Event","Events"],
             "event_logic_2": ["Eli Lilly Event"],
             "event_logic_3": ["Waters Event"],
-            "event_logic_4": ["Icon-event-Bangalore","Sinch Event sheet","infosys Event+ Additional Sales","Other Events.","Telstra Event sheet","MPL-Delhi"],
+            "event_logic_4": ["Icon-event-Bangalore","Sinch Event sheet","infosys Event+ Additional Sales","Other Events.","Telstra Event sheet","MPL-Delhi","Grow event"],
             "event_logic_5": ["Other Events"],
             "event_logic_6": ["Lam Research Event"],
             "event_logic_7": ["ICON CHN EVENT"],
