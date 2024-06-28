@@ -95,7 +95,7 @@ def main():
             "business_logic_7": ["MPL"],
             "business_logic_8": ["Tonbo","Tadano Escorts","Siemens - Tuckshop","Dynasty","Citrix Driver's Lunch & Dinner","sharefile"],
             "business_logic_9": ["Rippling","Tessolve"],
-            "business_logic_10": ["MPL -  Infinity Plates","Tekion.","Groww Koramangala","Groww VTP","MIQ","Groww Mumbai","Ather Mumbai","Epam"],
+            "business_logic_10": ["MPL -  Infinity Plates","Tekion.","Groww Koramangala","Groww VTP","Groww Mumbai","Ather Mumbai","Epam"],
             "business_logic_11": ["Telstra MainMeal(Cash & Carry)"],
             "business_logic_12": ["Eli Lilly Wallet", "Sheet1"], # get this clarified
             "business_logic_13": ["Sinch","O9 Solutions"],
@@ -134,6 +134,7 @@ def main():
             "business_logic_46": ["Airtel Noida"],
             "business_logic_47": ["Airtel NOC"],
             "business_logic_48": ["Airtel-Jaya"],
+            "business_logic_49": ["MIQ"],
 
 
             "event_logic_1": ["Telstra Event.","Telstra Event","Events"],
