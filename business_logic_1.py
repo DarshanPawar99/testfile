@@ -42,7 +42,7 @@ def find_mismatches(df):
             calculated_buying_pax = safe_get_value(row, 'ordered pax/vendor mg')
             check_mismatch(row, index, 'buying pax', calculated_buying_pax, mismatched_data)
 
-            calculated_selling_pax = max(safe_get_value(row, 'ordered pax/vendor mg'), safe_get_value(row, 'actual consumption'))
+            calculated_selling_pax = max(safe_get_value(row, 'client mg/pre order'), safe_get_value(row, 'actual consumption'))
             check_mismatch(row, index, 'selling pax', calculated_selling_pax, mismatched_data)
             
             calculated_selling_amount = (safe_get_value(row, 'selling pax') * safe_get_value(row, 'selling price')) + safe_get_value(row, 'selling transportation')
