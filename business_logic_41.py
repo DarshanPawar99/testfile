@@ -35,6 +35,9 @@ def find_mismatches(df):
             calculated_buying_price = safe_get_value(row, 'buying price ai') / safe_get_value(row, 'gst')
             check_mismatch(row, index, 'buying price', calculated_buying_price, mismatched_data)
 
+            calculated_selling_pax = safe_get_value(row, 'buying pax')
+            check_mismatch(row, index, 'selling pax', calculated_selling_pax, mismatched_data)
+
             calculated_buying_amt = (safe_get_value(row, 'buying price ai') * safe_get_value(row, 'buying pax') 
                                      + safe_get_value(row, 'buying transportation'))
             check_mismatch(row, index, 'buying amt ai', calculated_buying_amt, mismatched_data)
