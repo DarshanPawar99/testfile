@@ -35,7 +35,7 @@ def main():
 
         try:
             # Read the selected sheet into a dataframe, specifying header row
-            df = pd.read_excel(uploaded_file, sheet_name=selected_sheet, header=1)
+            df = pd.read_excel(uploaded_file, sheet_name=selected_sheet, header=1, engine='openpyxl')
             logging.info(f"Sheet '{selected_sheet}' loaded successfully.")
         except ValueError as e:
             st.error(f"ValueError reading the sheet '{selected_sheet}': {e}")
